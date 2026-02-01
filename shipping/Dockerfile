@@ -21,7 +21,8 @@ RUN mvn package
 #
 # Run
 #
-FROM openjdk:8-jdk-slim
+FROM eclipse-temurin:8-jdk
+
 
 
 EXPOSE 8080
